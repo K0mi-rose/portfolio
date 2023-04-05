@@ -1,0 +1,39 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #dad6d6;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cont {
+    background-color: #111;
+    color: #c5c2c2;
+    border-radius: 15px;
+    padding-left: 10px;
+    min-width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont>a {
+    text-decoration: none;
+    color: #c5c2c2;
+}
+
+.cont>a:hover {
+    text-decoration: underline;
+}
+
+.cont>a {
+    padding-right: 30px;
+}
+
+.cont>a>span {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.cont {
+    height: 40px;
+}

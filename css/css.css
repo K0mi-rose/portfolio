@@ -1,0 +1,267 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #dad6d6;
+    height: 100%;
+}
+
+.invisible{
+    display: none;
+}
+
+.ulnav{
+    padding-left: 10px;
+}
+
+.linav{
+    background-color: #7a7474;
+    padding: +2px;
+    border-radius: 15px;
+}
+
+.psep{
+    height: 20vh;
+}
+
+.writeable {
+    padding-left: 240px;
+    padding-right: 20px;
+}
+
+.footerClass {
+    position: fixed;
+    bottom: 5px;
+    left: 240px;
+    right: 10px;
+}
+
+.cardG.appearing{
+    animation: slideUp .8s cubic-bezier(0.63, 0.1, 0.68, 0.9), fadeIn .3s cubic-bezier(0.19, 1, 0.22, 1);
+	animation-fill-mode: both;
+}
+
+.buttonSep{
+    padding-left: 25px;
+}
+
+@keyframes slideUp{
+	from { transform: translateY(1000px); }
+	to { transform: translateY(10px); }
+}
+
+@keyframes slideDown {
+    from { transform: translateY(10px); }
+    to { transform: translateY(1000px) };
+}
+
+
+.cont {
+    background-color: #111;
+    color: #c5c2c2;
+    border-radius: 15px;
+    padding-left: 10px;
+    min-width: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cardG {
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 96vh;
+    background-color: #f1f1f1;
+    min-width: 920px;
+    min-height: 880px;
+    filter: drop-shadow(5px 5px 10px rgba(92, 104, 128, 0.9));
+}
+
+.projectCard {
+    min-height: 940px;
+}
+
+.cardG>h1 {
+    padding-top: 5px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 220px;
+    min-width: 220px;
+    min-height: 850px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-right: solid;
+    border-width: 4px;
+    border-color: #818181;
+}
+
+.rnav{
+    padding-left: 12px;
+}
+
+.sidenav>a {
+    padding: 10px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.contact{
+    padding: 10px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.owner {
+    width: 195px;
+    border-radius: 50%;
+    padding-left: 25px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.containerG {
+    padding-left: 20px;
+    display: inline-block;
+    color: #f1f1f1;
+}
+
+hr {
+    color: #818181;
+    width: 150px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+
+.typed-out {
+    overflow: hidden;
+    border-right: .15em solid #818181;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation:
+        typing 1s steps(20, end) forwards;
+}
+
+.typed-out-under {
+    color: rgb(128, 125, 125);
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1.0rem;
+    width: 0;
+    animation:
+        typing 1s steps(20, end) forwards;
+}
+
+.sep {
+    height: 0.5vh;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.containergrid {
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 49.95% 0.1% 49.95%;
+    text-align: center;
+}
+
+.column {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+}
+
+.column:nth-child(1) {
+    text-justify: auto;
+}
+
+.columnm {
+    margin-top: 30px;
+    border-left: solid #111;
+    margin-bottom: 30px;
+}
+
+.skills{
+    max-height: 88vh;
+}
+
+.cont>a {
+    text-decoration: none;
+    color: #c5c2c2;
+}
+
+.cont>a:hover {
+    text-decoration: underline;
+}
+
+.cont>a {
+    padding-right: 30px;
+}
+
+.cont>a>span {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.cont {
+    height: 40px;
+}
+
+.column>img {
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 95%;
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.projectsep{
+    padding-top: 10px;
+}
+
+ul>li>img{
+    height: 30px;
+}
+
+.linkdd {
+    text-decoration: none;
+    color: #7a7474;
+}
+
+.linkdd:hover{
+    text-decoration: underline;
+}
+
+.botmenu{
+    position: absolute;
+    bottom: 0px;
+}
+
+.linav:hover{
+    background-color: #f1f1f1;
+}
