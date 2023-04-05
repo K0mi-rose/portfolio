@@ -12,7 +12,7 @@ const expCard = document.querySelector('#fourthC');
 const realCard = document.querySelector('#fifthC');
 
 function hideAll(){
-    const visibleList = document.querySelectorAll('.cardG , .footerClass');
+    const visibleList = document.querySelectorAll('.cardG , .footerClass, .cardG2');
     visibleList.forEach(element => {
         element.classList.add('invisible');
         element.classList.remove('appearing');

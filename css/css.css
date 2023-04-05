@@ -4,6 +4,14 @@ body {
     height: 100%;
 }
 
+.trelloCard {
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 800px;
+    max-height: 400px;
+}
+
 .invisible{
     display: none;
 }
@@ -35,6 +43,11 @@ body {
 }
 
 .cardG.appearing{
+    animation: slideUp .8s cubic-bezier(0.63, 0.1, 0.68, 0.9), fadeIn .3s cubic-bezier(0.19, 1, 0.22, 1);
+	animation-fill-mode: both;
+}
+
+.cardG2.appearing{
     animation: slideUp .8s cubic-bezier(0.63, 0.1, 0.68, 0.9), fadeIn .3s cubic-bezier(0.19, 1, 0.22, 1);
 	animation-fill-mode: both;
 }
@@ -264,4 +277,22 @@ ul>li>img{
 
 .linav:hover{
     background-color: #f1f1f1;
+}
+
+.cardG2 {
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 96vh;
+    background-color: #f1f1f1;
+    min-width: 1100px;
+    min-height: 980px;
+    filter: drop-shadow(5px 5px 10px rgba(92, 104, 128, 0.9));
+}
+
+.trelloCaption {
+    padding-top: 30px;
+    padding-left: 15px;
+    max-width: 50px;
+    color: #7e7979;
 }
